@@ -26,7 +26,6 @@ func sortList(head *ListNode) *ListNode {
 
 				//fmt.Printf("%d > %d, swapping \n", cur.Val, cur.Next.Val)
 
-				isSorted = false
 				buffer := cur.Next.Val
 				cur.Next.Val = cur.Val
 				cur.Val = buffer
